@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Braces, ChevronDown, Copy, Play, RotateCcw, SquareTerminal } from 'lucide-react';
+import { Braces, ChevronDown, Copy, Play, RotateCcw, SquareTerminal, Zap } from 'lucide-react';
 import type { GraphResponse } from '../types';
 const sampleQuery = `query GetProjects { projects { id name status owner { name } deployments { id status } } }`;
 const initialQuery = `query WorkspaceOverview {
