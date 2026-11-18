@@ -1,0 +1,1 @@
+export type GraphResponse = { data?: Record<string, unknown>; errors?: { message: string; locations?: {line:number;column:number}[] }[]; extensions?: { executionTime?: number; resolverTimings?: Record<string,number>; complexity?: number } };

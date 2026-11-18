@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+:root{font-family:'DM Sans',sans-serif;color:#e2e8f0;background:#070a12;font-synthesis:none;text-rendering:optimizeLegibility}
+*{box-sizing:border-box}body{margin:0;min-width:320px;min-height:100vh;background:radial-gradient(ellipse at 50% -20%,rgba(91,55,170,.13),transparent 45%),#070a12}
+button,textarea{font:inherit}button{cursor:pointer}.mono{font-family:'JetBrains Mono',monospace}.panel{background:rgba(15,23,42,.78);border:1px solid #1e293b;border-radius:12px}.muted{color:#718096}.scrollbar::-webkit-scrollbar{width:6px;height:6px}.scrollbar::-webkit-scrollbar-thumb{background:#334155;border-radius:8px}
