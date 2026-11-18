@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Braces, ChevronDown, Copy, Play, RotateCcw, SquareTerminal } from 'lucide-react';
 import type { GraphResponse } from '../types';
-const sampleQuery = `query GetProjects { projects { id name status owner { name } deployments { id status } } }`;\nconst initialQuery = `query WorkspaceOverview {
+const sampleQuery = `query GetProjects { projects { id name status owner { name } deployments { id status } } }`;
+const initialQuery = `query WorkspaceOverview {
   projects {
     id
     name
